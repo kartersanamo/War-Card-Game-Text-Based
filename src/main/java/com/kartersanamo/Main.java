@@ -10,12 +10,15 @@ public class Main {
         System.out.println("Welcome to the game of War");
         System.out.println("You will be playing against the computer, good luck!");
         System.out.println();
-        System.out.println("Please type 'p' to play or 'q' to quit or 's' to simulate: ");
+        System.out.println("Please select an option:");
+        System.out.println("p) Play Against Computer");
+        System.out.println("q) Quit");
+        System.out.println("s) Simulate the game between 2 computers");
 
         String input = scanner.nextLine().toLowerCase();
 
         if (input.equals("p")) {
-            System.out.println("Starting Game...");
+            System.out.println("Starting the Game...");
             System.out.println();
             Game game = new Game();
             game.startGame(false);
