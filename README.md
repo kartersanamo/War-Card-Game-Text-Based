@@ -7,7 +7,17 @@ A console implementation of the classic **War** card game in Java. Play against 
 - **Java 25** (see `pom.xml`)
 - **Maven** (for building and running)
 
-## How to Run
+## Releases
+
+Pre-built JARs are available on the [Releases](https://github.com/kartersanamo/War-Card-Game-Text-Based/releases) page. Download the latest `WarGameTextBased.jar` and run:
+
+```bash
+java -jar WarGameTextBased.jar
+```
+
+Requires Java 25 or later.
+
+## How to Run (from source)
 
 From the project root:
 
