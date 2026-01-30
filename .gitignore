@@ -37,3 +37,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/out/artifacts/WarGameTextBased_jar/WarGameTextBased.jar
